@@ -9,8 +9,8 @@ The application scans a local `media` directory and provides a web interface for
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ondrejvajda/LocalFlix.git
-cd LocalFlix
+git clone https://github.com/ondrejvajda/localflix.git
+cd localflix
 ```
 
 ### 2. Create a virtual environment
@@ -44,19 +44,19 @@ uvicorn app.main:app --reload --port 8000
 ### 5. Open the application
 
 ```text
-http://localhost:8000
+http://localhost:8000/static/index.html
 ```
 
 or
 
 ```text
-http://127.0.0.1:8000
+http://127.0.0.1:8000/static/index.html
 ```
 
 ## Project Structure
 
 ```text
-LocalFlix/
+localflix/
 ├── app/
 │   ├── static/
 │   ├── main.py
